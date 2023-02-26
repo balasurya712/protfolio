@@ -1,0 +1,120 @@
+
+#img1{
+    height: 30%;
+    width: 60%;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 10px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+      margin-top: 5px;
+      font-size: 20;
+  }
+ *{
+    margin: 0;
+}
+li>a{
+text-decoration: none;
+color: black;
+}
+li>a:hover{
+  color: rgb(250, 248, 248);
+  }
+body{
+    display: flex;
+    overflow-y: hidden;
+    justify-content: space-between;
+    margin-left: 5vw;
+}
+#f1{
+    background-color: #c1ee8ecc;
+    border:none;
+    height: 100%;
+    width: 26vw;
+}
+#f2{
+  height: 100%;
+    width: 70vw;
+    border:none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.header{
+  background-image: url('hbg.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  color: #fffefe;
+}
+.hed{
+  position: relative;
+  top: 35%;
+  left: 50px;
+  font-size: 40;
+}
+.hed>#inner{
+  font-size: 20;
+}
+.hed>a{
+  margin-top: 30px;
+  text-decoration: none;
+  color: whitesmoke;
+  border: solid white;
+  border-width: smaller ;
+  font-size: 30;
+}
+#about{
+  margin-right: 100px;
+}
+#about_skill{
+  margin-right: 90px;
+  margin-left: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+.grid{
+  border-bottom-style: solid;
+  height: 150px;
+  width: 150;
+  border-color: red;
+  border-width: 2px;
+  box-shadow: 5px 5px 5px 5px #8b8b8b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.grid:hover{
+  transform: scale(1.1);
+  color: blue;
+}
+
+.below_header{
+  margin-top: 20px;
+  padding-left: 1vw ;
+}
+h2{
+  color: #998e8e;
+  margin-bottom: 4px;
+  font-size: medium;
+}
+h4{
+font-size: 25;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.about_me{
+  color: #998e8e;
+  font-size: 15;
+  margin-bottom: 10px;
+}
+.grid>h6{
+  font-size: 24;
+  margin-bottom: 20px;
+}
